@@ -1,0 +1,29 @@
+.eventswrapper {
+    text-align: left;
+}
+
+h2 {
+    width: 100%;
+}
+
+.event {
+    width: 80%;
+    margin: 5%;
+}
+
+.event .infobox {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.event .desc {
+    white-space: pre-line;
+}
+
+.event a {
+    background-color: #6F4522;
+    color: white;
+    padding: 8px 15px 10px 15px ;
+}
