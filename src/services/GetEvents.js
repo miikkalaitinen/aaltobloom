@@ -23,8 +23,8 @@ const GetEvents = () => {
         const comingDates = await data.filter(_ => moment(data.date).isSameOrBefore(now))
         const pastDates = await data.filter(_ => moment(data.date).isSameOrAfter(now))
 
-        setComingEvents(comingDates)
-        setPastEvents(pastDates)
+        setComingEvents(comingDates.reverse())
+        setPastEvents(pastDates.reverse())
     }
   
     useEffect( () => {

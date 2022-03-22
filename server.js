@@ -1,5 +1,5 @@
 
-const express = require('express');
+const express = require('express')
 const cors = require('cors')
 const axios = require('axios')
 const app = express();
@@ -16,7 +16,7 @@ app.use(cors({
   credentials: true,
 }));
 
-app.get("/events" , function (req, res) {
+app.get("/api/events" , function (req, res) {
 
     axios.get(ENDPOINT).then(response => {
       res.json({data : response.data});
@@ -25,4 +25,4 @@ app.get("/events" , function (req, res) {
   })
 })
 
-app.listen(process.env.SERVER_PORT, () => console.log('Server online!'));
+app.listen(process.env.SERVER_PORT || 5000, () => console.log('Server online in http://localhost:5000/api/events'));

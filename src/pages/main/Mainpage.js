@@ -47,8 +47,10 @@ export default function Mainpage() {
             <h2>Coming Events</h2>
             <div>
                 {
-                comingEvents.map(event => (
-                    <TightEvent key={event.id} event={event} />
+                comingEvents.length === 0 ?
+                    <p>There are no coming events right now.</p> :
+                    comingEvents.map(event => (
+                        <TightEvent key={event.id} event={event} />
                 ))
                 }    
             </div>
