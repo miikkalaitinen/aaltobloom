@@ -19,6 +19,10 @@ h2 {
 
 /* Social Section */
 
+.description > p {
+    margin-left: 5%;
+}
+
 .socials > div {
     display: flex;
     justify-content: space-around;
@@ -35,6 +39,7 @@ h2 {
 
 .events > div{
     width: 80%;
+    margin: 5%;
 }
 
 .tightEvent {

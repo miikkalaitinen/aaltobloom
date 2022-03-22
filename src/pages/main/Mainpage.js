@@ -35,10 +35,10 @@ export default function Mainpage() {
                     </a>
                 </div>
                 <div id="mail">
-                    <a href="mailto: sauli.sillanpaa@gmail.com" target="_blank"  rel="noreferrer">
+                    <a href="mailto: aaltobloom@gmail.com" target="_blank"  rel="noreferrer">
                         <h4>Email</h4>
                         <img src="./MailLogo.png" width="64px" alt="Email"></img>
-                        <p>Send Email to Sauli</p>
+                        <p>aaltobloom@gmail.com</p>
                     </a>
                 </div>
             </div>
