@@ -10,7 +10,7 @@ export default function BoardPage() {
             </h1>
                 {
                 BoardDesc.map(dude => (
-                    <div className='dudediv'>
+                    <div key={dude.name} className='dudediv'>
                         <h3>{dude.title}</h3>
                         <h4>{dude.name}</h4>
                             <div className='dudeDesc'>

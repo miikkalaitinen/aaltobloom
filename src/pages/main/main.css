@@ -3,10 +3,7 @@
 section {
     text-align: left;
     width: 100%;
-}
-
-h2 {
-    width: 100%;
+    margin-bottom: 5vh;
 }
 
 /* Logo */
@@ -14,7 +11,10 @@ h2 {
 .logo {
     text-align: center;
     width: 80%;
-    margin-bottom: 10%;
+    max-width: 1000px;
+    
+    min-width: 250px;
+    margin: 5vh 0 5vh 0;
 }
 
 /* Social Section */
@@ -55,4 +55,14 @@ h2 {
     background-color: #6F4522;
     color: white;
     padding: 8px 15px 10px 15px ;
+}
+
+@media only screen and (max-width: 550px) {
+    .socials > div {
+        flex-direction: column;
+    }
+
+    .socials > div > div {
+        margin-top: 1vh;
+    }
 }

@@ -2,24 +2,25 @@
     text-align: left;
 }
 
-h2 {
-    width: 100%;
+.eventswrapper > h2{
+    align-self: flex-start;
+    margin-left: 2vw;
 }
 
 .event {
     width: 80%;
-    margin: 5%;
+    margin-top: 4vh;
 }
 
 .event .infobox {
-    width: 60%;
-    display: flex;
+    width: 80%;
     justify-content: space-between;
     align-items: flex-end;
 }
 
 .event .desc {
     white-space: pre-line;
+    margin: 5vh 0 2vh 0;
 }
 
 .event a {

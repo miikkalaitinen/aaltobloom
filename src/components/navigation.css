@@ -1,18 +1,21 @@
 /* Navigation style */
 
 nav {
-    position: top;
+    position: fixed;
+    top: 0px;
+    width: 100%;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
-a {
+nav > a {
     padding: 20px 10px 20px 10px;
     width: 100%;
-    height: 100%;
     text-decoration: none;
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.2), 25%, rgb(255, 255, 255));
 }
 
 a:hover{
-    background-color: rgb(232, 232, 232);
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.2), 25%, rgb(232, 232, 232));
 }
